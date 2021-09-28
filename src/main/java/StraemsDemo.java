@@ -23,5 +23,3 @@ public class StraemsDemo {
         System.out.println(abc);
     }
 }
-
-
