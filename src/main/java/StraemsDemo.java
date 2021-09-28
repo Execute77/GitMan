@@ -19,11 +19,7 @@ public class StraemsDemo {
 
        Optional<Integer> min = ints.stream().min(Integer::compare);
 
-
-
         List<Integer> abc = ints.stream().sorted().filter(n -> ((n % 2) ==0)).collect(Collectors.toList());
         System.out.println(abc);
     }
 }
-
-
